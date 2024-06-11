@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import ThemeProvider, { ThemePovider } from "./components/ThemeProvider";
+import WeatherDasboard from "./components/WeatherDasboard";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -20,6 +21,7 @@ function App() {
   return (
     <ThemePovider value={{ theme, darkTheme, lightTheme }}>
       <Navbar />
+      <WeatherDasboard />
     </ThemePovider>
   );
 }
