@@ -34,7 +34,7 @@ const Navbar = ({ setQuery, setUnits }) => {
 
   return (
     <div
-      className={`flex justify-around items-center shadow-lg  ${
+      className={`flex justify-around items-center shadow-lg py-2 ${
         theme === "light" ? "bg-white text-black" : "bg-gray-700 text-white"
       }`}
     >
@@ -89,13 +89,13 @@ const Navbar = ({ setQuery, setUnits }) => {
       <div>
         {theme === "light" ? (
           <MdDarkMode
-            size={16}
+            size={20}
             className="cursor-pointer transition ease-out hover:scale-125"
             onClick={toggleTheme}
           />
         ) : (
           <MdLightMode
-            size={16}
+            size={20}
             className="cursor-pointer transition ease-out hover:scale-125"
             onClick={toggleTheme}
           />

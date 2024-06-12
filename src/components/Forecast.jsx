@@ -13,7 +13,7 @@ const Forecast = ({title, data,units}) => {
               {data?.map((d
                   , index) => (
                   <div key={index} className='flex flex-col items-center  justify-center'>
-                      <p className='font-light text-sm'> {d.title}</p>
+                      <p className='font-medium text-sm'> {d.title}</p>
                       <img src={d.icon} alt="forecast icon"
                           className='w-12 my-1' />
                       <p className='sm:font-medium text-lg '>{`${d.temp.toFixed()}${units=='metric'?'°C':'°F'}` }</p>
