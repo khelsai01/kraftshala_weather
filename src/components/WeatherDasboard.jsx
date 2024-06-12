@@ -2,13 +2,17 @@ import React from 'react'
 import TimeAndLocation from './TimeAndLocation'
 import useTheme from './ThemeProvider'
 import TempAndDetails from './TempAndDetails'
+import Forecast from './Forecast'
 
-const WeatherDasboard = () => {
-    const {theme} = useTheme()
+const WeatherDasboard = ({weather,units}) => {
+  const { theme } = useTheme()
+
   return (
-      <div className={`maxW-[85%] ${theme==='dark'?'bg-slate-700 text-sky-400':'bg-sky-400 text-white'}`} >
-      <TimeAndLocation />
-      <TempAndDetails />
+      <div className={`maxW-[85%] ${theme==='dark'?'text-sky-400':'text-white'}`} >
+      <TimeAndLocation weather={weather} />
+      <TempAndDetails weather={weather} units={units} />
+      <Forecast title={'Hourly forecast'} data={weather.hourly} units={units} />
+      <Forecast title={'Daily forecast'} data={weather.daily} units={units} />
     </div>
   )
 }
