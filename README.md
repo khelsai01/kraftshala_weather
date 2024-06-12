@@ -8,7 +8,7 @@ The weather app helps get the weather details of the current place and another p
 
  ## Presentation Video 
 
-[![Watch the video](https://github.com/khelsai01/kraftshala_weather/assets/119441119/650753f6-507e-4f26-821a-6859e29c6447)](https://drive.google.com/file/d/1ddh8jCIPlw971AkJx1yZnBHpEjbxnM9T/view?usp=sharing)
+[![Watch the video](https://github.com/khelsai01/kraftshala_weather/assets/119441119/650753f6-507e-4f26-821a-6859e29c6447)](https://drive.google.com/file/d/1XjLxqwNPE6oUixCheKgC0d8xvWF4Z2U7/view?usp=sharing)
 
 ## Tech Stach use
 1. Reactjs
@@ -35,3 +35,19 @@ The weather app helps get the weather details of the current place and another p
 
 
 ![mobile2](https://github.com/khelsai01/kraftshala_weather/assets/119441119/cd7d38f7-117a-46eb-a284-8e26bd6cf45b)
+
+
+## Local run by open terminal
+
+1. Clone the repository 
+`git clone https://github.com/khelsai01/sparts_tech.git`
+
+2. Move to folder
+  `cd kraftshala_weather`
+
+3. Install packages
+  `npm Install`
+
+4. Run the the code
+   `npm run dev`
+
