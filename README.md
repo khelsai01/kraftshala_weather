@@ -40,7 +40,7 @@ The weather app helps get the weather details of the current place and another p
 ## Local run by open terminal
 
 1. Clone the repository 
-`git clone https://github.com/khelsai01/sparts_tech.git`
+`https://github.com/khelsai01/kraftshala_weather.git`
 
 2. Move to folder
   `cd kraftshala_weather`
