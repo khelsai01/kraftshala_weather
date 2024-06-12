@@ -34,7 +34,7 @@ const Navbar = ({ setQuery, setUnits }) => {
 
   return (
     <div
-      className={`flex justify-around items-center shadow-lg py-2 ${
+      className={`flex justify-around fixed top-0 w-full items-center shadow-lg py-2 ${
         theme === "light" ? "bg-white text-black" : "bg-gray-700 text-white"
       }`}
     >

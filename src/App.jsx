@@ -37,7 +37,7 @@ function App() {
   console.log(weather)
 
   return (
-    <div className={`${theme==="dark"?"bg-slate-700":"bg-sky-400"}`}>
+    <div className={`w-full min-h-screen ${theme==="dark"?"bg-slate-700":"bg-sky-400"}`}>
     <ThemePovider value={{ theme, darkTheme, lightTheme }}>
       <Navbar setQuery={setQuery} setUnits={setUnits} />
       {weather ?

@@ -4,7 +4,7 @@ const Forecast = ({title, data,units}) => {
 
 
   return (
-    <div className='w-[85%] mx-auto pb-6'>
+    <div className={`w-[85%] mx-auto pb-10`} >
           <div className='flex items-center jusity-start mt-6'>
               <p className='font-medium'> {title}</p>
           </div>

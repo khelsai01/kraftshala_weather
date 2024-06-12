@@ -8,7 +8,7 @@ const WeatherDasboard = ({weather,units}) => {
   const { theme } = useTheme()
 
   return (
-      <div className={`maxW-[85%] ${theme==='dark'?'text-sky-400':'text-white'}`} >
+      <div className={`maxW-[85%] ${theme==='dark'?'text-sky-400':'text-white'} py-20`} >
       <TimeAndLocation weather={weather} />
       <TempAndDetails weather={weather} units={units} />
       <Forecast title={'Hourly forecast'} data={weather.hourly} units={units} />
